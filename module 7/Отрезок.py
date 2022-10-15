@@ -2,7 +2,7 @@ a = int(input('Введите число: '))
 b = int(input('Введите число: '))
 medium_of_num = 0
 count = 0
-for i in range(a, b):
+for i in range(a, b + 1):
     if i % 3 == 0:
         medium_of_num += i
         count += 1
