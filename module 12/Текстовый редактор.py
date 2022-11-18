@@ -7,7 +7,7 @@ def count_letters(num, letter):
         elif i == letter:
             sum_let += 1
     print('Количество цифр', num, '=', sum_num)
-    print('Количество букв', num, '=', sum_let)
+    print('Количество букв', letter, '=', sum_let)
 
 text = input('Введите текст: ')
 num = input('Какую цифру ищем? ')
